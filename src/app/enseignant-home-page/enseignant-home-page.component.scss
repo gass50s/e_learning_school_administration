@@ -1,0 +1,24 @@
+@import '../../styles.scss';
+
+* {
+    text-decoration: none;
+}
+
+
+.calendar {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 60%;
+}
+
+p-button{
+    margin-right: 10px;
+}
+
+ol li{
+    margin-bottom: 10px;
+}
+
+.send-presence{
+    float: right;
+}

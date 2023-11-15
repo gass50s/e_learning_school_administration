@@ -1,0 +1,20 @@
+// /* You can add global styles to this file, and also import other style files */
+
+// html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'primeflex/primeflex.scss';
+
+@import "primeicons/primeicons.css";
+
+.mybutton {
+    @include styleclass('bg-blue-500 hover:bg-blue-600 border-round transition-colors transition-duration-150 p-3 border-none');
+}
+
+$first-color: #3142d6;
+$second-color: #60A4BF;
+$third-color: #63AEBF;
+$fourth: #F23827;
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
